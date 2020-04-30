@@ -3,9 +3,9 @@ This is a design of a closed loop speed control system for a 12V DC motor using 
 
 # TERMINOLOGY:
 # Module 1: To calculate the rpm of a dc motor.
-Revolutions per minute 
+1.Revolutions per minute 
 
-Tachometer
+2.Tachometer
 
 𝒅𝒖𝒓𝒂𝒕𝒊𝒐𝒏 = 𝒄𝒖𝒓𝒓𝒆𝒏𝒕 𝒕𝒊𝒎𝒆 − 𝒑𝒓𝒆𝒗𝒊𝒐𝒖𝒔 𝒕𝒊𝒎𝒆
 
@@ -20,13 +20,13 @@ where,
 𝒕 is the time in seconds as Arduino assigns time in milliseconds. Rpm is hence calculated by the above formula.
 
 # Module 2: To make the dc motor run at a desired speed.
-Desired rpm
+1.Desired rpm
 
-Closed loop negative feedback control system
+2.Closed loop negative feedback control system
 
-Pulse width modulation (PWM)
+3.Pulse width modulation (PWM)
 
-Proportional Controller
+4.Proportional Controller
  
 𝒆𝒓𝒓𝒐𝒓 = 𝒄𝒖𝒓𝒓𝒆𝒏𝒕 𝒓𝒑𝒎 − 𝒅𝒆𝒔𝒊𝒓𝒆𝒅 𝒓𝒑𝒎
 
