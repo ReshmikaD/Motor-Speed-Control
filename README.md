@@ -142,17 +142,16 @@ This region refers to the stable state of  the dc motor  running at a speed of  
 When a load is applied across a motor for 2 seconds, the speed of  the motor is found to fluctuate from its actual value.
 
 3.Eventually the motor is seen to regain its original speed. This process is known as load stabilization.
-The time taken for the dc motor  to regain its speed is known as the transient time . The  transient  time  is 
-# 3481ms.
+The time taken for the dc motor  to regain its speed is known as the transient time . The  transient  time  is 3481ms.
 
 
 # Appendix:
 
-Working Model:
+# Working Model:
 
 ![image](https://user-images.githubusercontent.com/54103472/81034843-0eb29c80-8eb6-11ea-97c6-735e74405f15.png)
 
-Learnings and outcomes:
+# Learnings and outcomes:
 
 This project has made me understand the practical usage of  transistors and voltage regulators.
 Gained the capacity to understand and apply theoretical topics to real life problems.
